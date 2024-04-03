@@ -1,0 +1,139 @@
+  @media (max-width:949px) {
+
+     html,
+     body {
+         margin: 0;
+         background-image: url(../images/bg-mobile.svg);
+        
+         padding: 0;
+     }
+
+     section {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         margin: 0;
+         padding: 0;
+         align-items: center;
+
+     }
+
+     .texto-principal {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         text-align: center;
+         align-items: center;
+         margin: 0;
+         padding: 0;
+
+
+     }
+
+     .instagram i,
+     .facebook i,
+     .twitter i {
+         margin: 0;
+
+     }
+
+
+     .rodape,
+     .texto-principal {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding-top: 20px;
+     }
+
+     .imagem-rede-social img{
+        width: 79%;
+        height: 79%;
+    
+    }
+ }
+
+ @media (max-width:375px) {
+
+  body{
+    
+    background-size: 100%;
+    overflow: hidden;
+   
+  }
+
+  .logo{
+    margin: 0;
+    padding: 0;
+
+  }
+  .logo {
+   width: 35%;
+   margin: 30px 36px;
+  
+
+}
+
+.imagem-rede-social img{
+    width: 93%;
+    height: 83%;
+    padding-top: 9px;
+
+}
+
+
+
+.texto-principal h1{
+  font-size: 25px; 
+  font-weight: 400; 
+  padding-top: 20px;
+  
+}
+
+
+
+.texto-principal p{
+   width: 93%;
+  text-align: center;
+    font-size: 17px; 
+  font-weight: 400;
+  opacity: 80%;
+  padding: 10px;
+  padding-bottom: 17px;
+ 
+
+}
+
+
+.register{
+    width: 206px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 12px;
+    
+}
+
+.rodape{
+  padding-top: 50px;
+}
+
+
+.rodape a {
+    
+display: flex;
+width: 30px;
+
+  text-align: center;
+}
+
+
+  .fab{
+   
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    
+
+  }
+
+ } 
